@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import React, { useState } from 'react';
 import { PropertyDescription } from './PropertyDescription';
 
@@ -16,7 +15,11 @@ const AddProperty = () => {
       >
         Add Property
       </button>
-      <div>{createProperty && <PropertyDescription />}</div>
+      <div>
+        {createProperty && (
+          <PropertyDescription setCreateProperty={setCreateProperty} />
+        )}
+      </div>
     </div>
   );
 };
