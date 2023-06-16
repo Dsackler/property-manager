@@ -10,7 +10,7 @@ export default async function NavBar() {
   return (
     //flex justify-between items-center py-8
     //w-full mx-auto px-4 sm:px-20 top-0 fixed z-50 shadow bg-stone-400
-    <nav className='flex justify-between items-center py-8'>
+    <nav className='flex justify-between items-center py-8 bg-neutral-200'>
       <Link href={'/'}>
         <h1 className='font-bold text-lg'>Property Manager</h1>
       </Link>
