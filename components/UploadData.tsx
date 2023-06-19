@@ -71,7 +71,11 @@ const UploadData = ({ uploadType }: uploadData) => {
           onSubmit={handleOnSubmit}
         >
           <p>
-            <input className='bg-slate-200' type='file' name='fileInput' />
+            <input
+              className='bg-white rounded-md'
+              type='file'
+              name='fileInput'
+            />
           </p>
 
           {/* <img src={imageSrc} height={300} width={300} /> */}
