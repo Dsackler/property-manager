@@ -6,7 +6,7 @@ const AddProperty = () => {
   const [createProperty, setCreateProperty] = useState(false);
 
   return (
-    <div className='flex flex-col justify-center items-center mt-40'>
+    <div className='flex flex-col justify-center items-center mt-2'>
       <button
         onClick={(e) => {
           setCreateProperty(true);
